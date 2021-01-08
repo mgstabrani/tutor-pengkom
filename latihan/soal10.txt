@@ -1,0 +1,21 @@
+PROGRAM
+    {Mengecek apakah M adalah matriks segitiga atas}
+KAMUS
+    M : array [0..NBrs-1] of array [0..NKol-1] of integer
+    NBrs, NKol : integer
+    isSegitigaAtas : boolean
+ALGORITME
+    isSegitigaAtas <- True
+    if(NBrs = NKol) then
+        i traversal [0..NBrs-1]
+            j traversal[0..NKol-1]
+                if(i < j) then
+                    if(M[i][j] = 0) then
+                        isSegitigaAtas <- False
+    else
+        isSegitigaAtas <- False
+    if(isSegitigaAtas) then
+        output("M adalah matriks segitiga atas")
+    else
+        output("M bukan matriks segitiga atas")
+        

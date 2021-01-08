@@ -1,0 +1,18 @@
+PROGRAM
+    {Menentukan apakah sebuah array berelemen positif semua}
+KAMUS
+    TI : array [0..99] of integer
+    isAllPositive : boolean
+    i : integer
+ALGORITME
+    i <- 0
+    isAllNegative <- False
+    while(not isAllNegative and i < 100) do
+        if(TI[i] <= 0) then
+            isAllNegative <- True
+        else
+            i <- i + 1
+    if(not isAllNegative) then
+        output(“Semua elemen array positif”)
+    else
+        output(“Tidak semua elemen array positif”)

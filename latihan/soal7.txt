@@ -1,0 +1,26 @@
+PROGRAM
+
+KAMUS
+    T : array [0..99] of integer
+    pilihan,max,min : integer
+
+ALGORITME
+    min <- T[0]
+    max <- T[0]
+    i traversal[1..99]
+        if(min > T[i]) then
+            min <- T[i]
+        if(max < T[i]) then
+            max <- T[i]
+    input(pilihan)
+    if(pilihan = 0) then
+        output(max)
+        output(min)
+    else
+        if(pilihan = 1) then
+            output(max)
+        else
+            if(pilihan = 2) then
+                output(min)
+            else
+                output("Inputan tidak valid")

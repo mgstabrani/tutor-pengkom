@@ -1,0 +1,10 @@
+PROGRAM
+    {menghitung banyak kelipatan X pada interval [a,b]}
+KAMUS
+    a,b, X, count : integer
+ALGORITME
+    count <- 0
+    i traversal[a..b]
+        if(i mod X = 0) then
+            count <- count + 1
+    output(count)

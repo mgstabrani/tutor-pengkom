@@ -1,0 +1,13 @@
+function f(input : x : float) -> float
+    -> x*x + 2*x + 5
+
+procedure io(input : a : integer, output : b : integer)
+    input(a)
+    b = a + 10
+    output(b)
+
+PROGRAM UTAMA
+    x = 10
+    y = f(x)
+    io(10)
+    print(f(20))

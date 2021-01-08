@@ -1,0 +1,20 @@
+PROGRAM
+    {Menentukan apakah kedua matriks sama}
+KAMUS
+    M1 : array [0..NBrs1-1] of array [0..NKol1-1] of integer
+    M2 : array [0..NBrs2-1] of array [0..NKol2-1] of integer
+    NBrs1,NBrs2,NKol1,NKol2 : integer
+
+ALGORITME
+    isSame <- True
+    if(NBrs1 = NBrs2 and NKol1 = NKol2) then
+        i traversal [0..NBrs1-1]
+            j traversal [0..NKol1-1]
+                if(M1[i][j] != M2[i][j]) then {= dicoret}
+                    isSame <- False
+    else
+        isSame <- False
+    if(isSame) then
+        output("Matriks sama")
+    else
+        output("matriks beda")

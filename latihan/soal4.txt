@@ -1,0 +1,27 @@
+PROGRAM
+
+KAMUS
+    a,b,c : integer
+
+ALGORITME
+    input(a)
+    input(b)
+    input(c)
+    if(a > b and b > c) then
+        output(a,b,c)
+    else
+        if(a > b and c > b) then
+            output(a,c,b)
+        else
+            if(b > a and a > c) then
+                output(b,a,c)
+            else
+                if(b > a and c > a) then
+                    output(b,c,a)
+                else
+                    if(c > a and a > b) then
+                        output(c,a,b)
+                    else
+                        output(c,b,a)
+        
+        
