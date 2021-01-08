@@ -1,0 +1,13 @@
+PROGRAM
+
+KAMUS
+    A, B : integer
+    
+ALGORITME
+    input(A)
+    input(B)
+
+    if (A > B) then
+        output(A)
+    else   
+        output(B)

@@ -1,0 +1,15 @@
+PROGRAM
+
+KAMUS
+    x1, x2, interval, luas, x : float
+
+ALGORITME
+    input(x1)
+    input(x2)
+    input(interval)
+    x <- x1
+    luas <- 0
+    while(x <= x2) do
+        luas <- luas + x*interval
+        x <- x + interval
+    output(luas)
