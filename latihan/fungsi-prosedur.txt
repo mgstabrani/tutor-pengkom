@@ -11,3 +11,35 @@ PROGRAM UTAMA
     y = f(x)
     io(10)
     print(f(20))
+
+Input sudah ada
+iB = [0,0,..]
+jB = [0,0,...]
+iR <- 0
+jR <- 0
+i traversal[0..3]
+    j traversal[0..3]
+        if(M[i][j] = R) then
+            iR = i
+            jR = j
+
+i traversal[0..NB-1]
+    j traversal [0..3]
+        k traversal [0..3]
+            if(M[j][k] = B) then
+                iB[i] = j
+                jB[i] = k
+
+isSkak <- False
+i traversal[0..NB-1]     
+    if(iR = iB[i]) then
+        isSkak <- True
+    else
+        if(jR = jB[i]) then
+            isSkak <- True
+
+
+if(isSkak) then
+    output("Raja kena skak)
+else
+    output("Raja tidak kena skak")

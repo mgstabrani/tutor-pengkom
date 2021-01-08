@@ -13,7 +13,7 @@ ALGORITME
                     if(M[i][j] = 0) then
                         isSegitigaAtas <- False
     else
-        isSegitigaAtas <- False
+        isSegitigaAtas = False
     if(isSegitigaAtas) then
         output("M adalah matriks segitiga atas")
     else
